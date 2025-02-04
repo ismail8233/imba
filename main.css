@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+header{
+    height: 80px;
+    background-color: #2B3844;
+    display: flex;
+    align-items: center;
+}
+.header-h1{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.74px;
+    color: white ;
+    
+}
+.header-p{
+    font-family: sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.82px;
+color: white;
+}
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main{
+    background-color: #202C36;
+    min-height: 100vh;
+}
+input{
+    width: 480px;
+height: 56px;
+background-color: #2B3844;
+color: white;
+font-family: sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+border: none;
+border-radius: 5px;
+margin-top: 48px;
+padding-left: 74px;
+}
+.section1 img{
+    transform: translate(57px, 5px);
+}
+.section2 .div10{
+display: flex;
+flex-wrap: wrap;
+gap: 75px;
+}
+.box{
+    width: 264px;
+    height: 250px;
+    background-color: #2B3844;
+    border-radius: 5px ;
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+}
+.box p{
+    font-family: sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 26px;
+   
+    margin-top: 32px    ;
+color: #FFFFFF;
+}
+
+.div1{
+background-image: url("img/1280px-Flag_of_Germany.svg\ \(8\).png");
+height: 160px;
+width: 100%;
+}
+.div2{
+    background-image: url("img/1280px-Flag_of_Germany.svg\ \(1\).png");
+height: 160px;
+width: 100%;
+}
+.div3{
+    background-image: url("img/1280px-Flag_of_Germany.svg\ \(1\).png");
+height: 160px;
+width: 100%;
+}.div4{
+    background-image: url("img/1280px-Flag_of_Germany.svg\ \(8\).png");
+height: 160px;
+width: 100%;
+}.div5{
+    background-image: url("img/1280px-Flag_of_Germany.svg\ \(1\).png");
+height: 160px;
+width: 100%;
+}.div6 {
+    background-image: url("img/1280px-Flag_of_Germany.svg\ \(8\).png");
+height: 160px;
+width: 100%;
+}
+.div7{
+    background-image: url("img/1280px-Flag_of_Germany.svg\ \(8\).png");
+height: 160px;
+width: 100%;
+}.div8{
+    background-image: url("img/1280px-Flag_of_Germany.svg\ \(1\).png");
+height: 160px;
+width: 100%;
+}
+.div10{
+margin-top: 48px;
+}
+@media (max-width: 835px) {
+    .div10{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 768px;
+height: 101px;
+border-radius: 5px;
+    }
+    .container{
+            width: 768px;
+            padding-right: 1px;
+            padding-left: 1px;
+    }
+   .box1{
+    margin-right: 163px;
+   }
+   .section1 img{
+    transform: translate(20px, 120px);
+    width: 40px;
+    height: 40px;
+   }
+}
+@media (max-width: 375px) {
+    .container{
+        width: 343px;
+        
+    }
+    .div10{
+        display: flex;
+        flex-wrap: wrap;
+    }
+.box{
+    width: 264px;
+height: 250px;
+border-radius: 5px ;
+margin-left: 40px;
+margin-right: 0px;
+}
+input{
+    width: 343px;
+height: 48px;
+}
+.header-h1{
+    font-family: sans-serif;
+font-size: 14px;
+font-weight: 800;
+line-height: 20px;
+}
+.header-p{
+    width: 84px;
+height: 17px;
+}
+.section1 img{
+    transform: translate(25px,85px);
+    width: 16px;
+    height: 16px;
+}
+}
